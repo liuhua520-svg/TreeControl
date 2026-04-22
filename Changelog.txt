@@ -1,0 +1,108 @@
+Version 1.0.1 -
+
+- Ensure tree flags are set correctly when trees are snapped to buildings without any elevation adjustment being set
+- Ensure tree elevation changes snap to zero
+
+
+Version 1.0 -
+
+- Add option to automatically enable anarchy whenever the Move It tool is active
+- Add option to disable random tree rotation
+
+
+Version 0.9.11.3 -
+
+- Add forced unhiding at load when both network and building unhiding is selected (overrides any other mod)
+
+
+Version 0.9.11.2 -
+
+- Adjust intial anarchy state application
+
+
+Version 0.9.11.1 -
+
+- Add null checks to guard against control panel initialization race condition at load
+
+
+Version 0.9.11 -
+
+- Resequence loading operations
+- Remove redundant tree brush slope limit patch
+
+
+Version 0.9.10 -
+
+- Add option to disable distant tree swaying
+- Add option to set initial anarchy status when loading is completed
+
+
+Version 0.9.9 -
+
+- Automatically remove anarchy from trees when anarchy is off and the building or network tools are in use
+- Update button tooltips when mode changes when tooltip is open
+
+
+Version 0.9.8.1 hotfix -
+
+- Fix info deserialization for expanded buffers with overlapping info references
+
+
+Version 0.9.8 -
+
+- Implement custom tree info deserializer (should prevent trees changing on load due to info index mismatches)
+
+
+Version 0.9.7 -
+
+- Add option to hide status panel
+- Remember status panel position between loads
+- Add status panel dragging on button right-click
+- Add 'reset position' button to options panel
+- Reorganize options panel tabs
+- Update status panel tooltips when key bindings change
+
+
+Version 0.9.6.1 -
+
+- Only reset trees to terrain height when the terrain tool is in use
+
+
+Version 0.9.6 -
+
+- Implement icon status panel
+- Added hotkeys to toggle snapping and lock forestry
+- Apply fixed height flag to all trees deserialized from old Tree Snapping mod
+
+
+Version 0.9.5 -
+
+- Overhaul anarchy behavior: anarchy is now persistent and assigned per-tree; trees without anarchy status will revert to normal tree behavior
+- Overhaul snapping behavior: snapping status is now persistent and assigned per-tree; trees without snapping adjustments will revert to normal tree behavior
+- Add new leave/hide/unhide/delete untouched loading options (separate for network and building overlaps) to reflect new anarchy behavior
+- Add Move It integration
+
+
+Version 0.9.4 -
+
+- Move RenderGroup refresh to UpdateData
+- Add Tree Snapping legacy type converter
+
+
+Version 0.9.3 -
+
+- Add option to ignore Tree Anarchy mod data
+- Automatically read and convert Unlimited Trees mod data
+- Streamline post-load RenderGroup refresh process
+
+
+Verson 0.9.2 -
+
+- Automatically read and convert Tree Anarchy data
+- Revise overlap detection handling
+- Update AlgernonCommons
+
+
+Version 0.9.1 -
+
+- Adjust overlap detection handling
