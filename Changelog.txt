@@ -1,3 +1,8 @@
+Version 1.0.2 - 
+
+Added support for use in the Map Editor, Theme Editor, Asset Editor, and Scenario Editor
+
+
 Version 1.0.1 -
 
 - Ensure tree flags are set correctly when trees are snapped to buildings without any elevation adjustment being set
